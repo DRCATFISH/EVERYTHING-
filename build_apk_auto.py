@@ -4,7 +4,7 @@
 
 # Version control
 SCRIPT_VERSION="1.0.0"
-REMOTE_SCRIPT_URL="https://raw.githubusercontent.com/your-repo/your-project/main/build_apk_auto.sh"  # Replace with your GitHub URL
+REMOTE_SCRIPT_URL="https://github.com/DRCATFISH/EVERYTHING-/blob/main/build_apk_auto.py"  # Replace with your GitHub URL
 TMP_SCRIPT_PATH="/tmp/build_apk_auto.sh"
 
 # Colors
