@@ -34,7 +34,7 @@ function check_for_updates() {
     print_status "Checking for updates..."
 
     # Download the latest script version from the remote repository
-    curl -s "$REMOTE_SCRIPT_URL" -o "$TMP_SCRIPT_PATH"
+    curl -s https://github.com/DRCATFISH/EVERYTHING-/blob/main/build_apk_auto.py -o "$TMP_SCRIPT_PATH"
 
     if [ $? -ne 0 ]; then
         print_status "Failed to check for updates. Continuing with the current version."
